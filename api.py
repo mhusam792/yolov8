@@ -4,7 +4,7 @@ from io import BytesIO
 from fastapi import HTTPException
 # from fastapi.responses import JSONResponse
 # import os
-from main_app.image_predictor import ImagePredictor
+from yolov8.image_predictor import ImagePredictor
 
 
 model_path = '/content/yolov8/last.pt'
