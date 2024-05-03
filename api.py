@@ -7,7 +7,7 @@ from fastapi import HTTPException
 from main_app.image_predictor import ImagePredictor
 
 
-model_path = 'yolov8_model/result/weights/last.pt'
+model_path = 'last.pt'
 image_predictor = ImagePredictor(model_full_path=model_path)
 
 def read_image_from_url(url: str) -> Image.Image:
