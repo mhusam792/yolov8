@@ -2,7 +2,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 from fastapi import HTTPException
-from main_app.image_predictor import ImagePredictor
+from yolov8.image_predictor import ImagePredictor
 
 
 model_path = 'yolov8_model/result/weights/last.pt'
