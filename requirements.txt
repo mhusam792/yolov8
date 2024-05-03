@@ -93,7 +93,7 @@ etuples==0.3.9
 exceptiongroup==1.2.1
 fastai==2.7.15
 fastapi==0.111.0
-fastapi-cli==0.0.2
+fastapi-cli
 fastcore==1.5.32
 fastdownload==0.0.7
 fastjsonschema==2.19.1
@@ -409,7 +409,7 @@ sortedcontainers==2.4.0
 soundfile==0.12.1
 soupsieve==2.5
 soxr==0.3.7
-spacy==3.7.4
+spacy
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 Sphinx==5.0.2
@@ -471,7 +471,7 @@ traittypes==0.2.1
 transformers==4.40.1
 triton==2.2.0
 tweepy==4.14.0
-typer==0.12.3
+typer
 types-pytz==2024.1.0.20240417
 types-setuptools==69.5.0.20240423
 typing_extensions==4.11.0
