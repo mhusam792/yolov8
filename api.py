@@ -68,7 +68,7 @@ def yolo_model(model_full_path, image: str):
     # try:
     prediction_result = image_predictor.model_result(
         model_path=model_full_path,
-        img_path=image # removed read_image_from_url
+        img_path=image # read_image_from_url() removed.
     )
     
     cls = image_predictor.return_cls(
