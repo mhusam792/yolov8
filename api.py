@@ -39,7 +39,8 @@ def categorize_items(item_dict):
 
     categories = dict(
         bags = ["Backpack", "Briefcase", "Handbag", "Suitcase"],
-        electronics = ["Computer keyboard", "Computer monitor", "Computer mouse", "Tablet computer", "Calculator", "Camera", "Tripod", "Laptop", "Mobile phone", "Headphones", "Flashlight"],
+        electronics = ["Computer keyboard", "Computer monitor", "Computer mouse", "Tablet computer",
+                       "Calculator", "Camera", "Tripod", "Laptop", "Mobile phone", "Headphones", "Flashlight"],
         animals = ["Cat", "Dog"],
         accessories = ["Fashion accessory", "Earrings", "Necklace"],
         hats = ["Hat", "Fedora", "helmet", "Bicycle helmet", "Sun hat", "Swim cap"],
