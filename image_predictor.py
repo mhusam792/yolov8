@@ -11,8 +11,15 @@ class ImagePredictor:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         print('Using Device: ', device)
         model = YOLO(model_path)
+
+        confidence = 0.0
+        if model_path == '/content/yolov8/last.pt':
+          confidence = .5
+        else:
+          confidence = .85
+        
         results = model.predict(img_path, device=device,
-                                show_conf=False, conf=.50, project='folders/runs/detect/prediction')
+                                show_conf=False, conf=confidence, project='folders/runs/detect/prediction')
         return results, model
 
     def return_cls(self, model_result, trained_model):
