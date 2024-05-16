@@ -43,7 +43,7 @@ def categorize_items(item_dict):
                        "Calculator", "Camera", "Tripod", "Laptop", "Mobile phone", "Headphones", "Flashlight"],
         animals = ["Cat", "Dog"],
         accessories = ["Fashion accessory", "Earrings", "Necklace"],
-        hats = ["Hat", "Fedora", "helmet", "Bicycle helmet", "Sun hat", "Swim cap"],
+        hats = ["Hat", "Fedora", "helmet", "Bicycle helmet", "Sun hat", "Swim cap", "hat", "cap"],
         glasses = ["Glasses", "Sunglasses", "Binoculars"],
         toys = ["Doll", "Football", "Ball", "Volleyball (Ball)"],
         personal_purposes = ["Watch", "wallet", "Bottle", "Mug", "Pencil case", "Book", "Umbrella", "Envelope"],
