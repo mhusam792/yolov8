@@ -38,16 +38,19 @@ def categorize_items(item_dict):
         return type_list
 
     categories = dict(
-        bags = ["Backpack", "Briefcase", "Handbag", "Suitcase"],
+        person = ['person'],
+        bags = ["Backpack", 'handbag', 'suitcase', "Briefcase", "Handbag", "Suitcase", 'backpack'],
         electronics = ["Computer keyboard", "Computer monitor", "Computer mouse", "Tablet computer",
-                       "Calculator", "Camera", "Tripod", "Laptop", "Mobile phone", "Headphones", "Flashlight"],
-        animals = ["Cat", "Dog"],
+                       "Calculator", "Camera", "Tripod", "Laptop", "Mobile phone", "Headphones", "Flashlight",
+                       'laptop', 'mouse', 'remote', 'cell phone'],
+        animals = ['Cat', 'Dog', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe'],
+        transportation = ['bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat'], 
         accessories = ["Fashion accessory", "Earrings", "Necklace"],
         hats = ["Hat", "Fedora", "helmet", "Bicycle helmet", "Sun hat", "Swim cap", "hat", "cap"],
         glasses = ["Glasses", "Sunglasses", "Binoculars"],
         toys = ["Doll", "Football", "Ball", "Volleyball (Ball)"],
-        personal_purposes = ["Watch", "wallet", "Bottle", "Mug", "Pencil case", "Book", "Umbrella", "Envelope"],
-        clothes = ["Tie", "Belt"]
+        personal_purposes = ["Watch", "wallet", "Bottle", "Mug", "Pencil case", "Book", 'book', 'clock', "Umbrella", 'umbrella', "Envelope"],
+        clothes = ["Tie", "Belt", 'tie']
     )
 
     type_list = []
@@ -59,8 +62,8 @@ def categorize_items(item_dict):
                 type_list.append(category)
                 found = True
                 break
-        if not found:
-            type_list.append("others")
+        # if not found:
+        #     type_list.append("others")
 
     return type_list
 
